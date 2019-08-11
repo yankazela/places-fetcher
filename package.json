@@ -1,0 +1,31 @@
+{
+  "name": "neighbourhood-places-fetcher",
+  "version": "1.0.0",
+  "description": "this service fetches places from googleAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js | bunyan"
+  },
+  "keywords": [
+    "google",
+    "API",
+    "Node",
+    "js"
+  ],
+  "author": "Yannick K. Kazadi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "node-heremaps": "0.0.2",
+    "save": "^2.3.3",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}

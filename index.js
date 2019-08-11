@@ -1,0 +1,5 @@
+require = require('esm')(module)
+var bunyan = require('bunyan')
+global.logger = bunyan.createLogger({ name: 'neighbourhood-places-fetcher' })
+global.siteProps = require('./config')
+module.exports = require('./src/server')
