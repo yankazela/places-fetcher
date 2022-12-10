@@ -20,7 +20,7 @@
     "body-parser": "^1.18.3",
     "bunyan": "^1.8.12",
     "esm": "^3.2.22",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jest": "^24.8.0",
     "node-heremaps": "0.0.2",
     "save": "^2.3.3",
